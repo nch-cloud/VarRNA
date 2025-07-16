@@ -160,3 +160,6 @@ Ensure the final output file contains variants with predictions:
 results/SRR31139166/Predictions/SRR31139166.annotated_predictions.csv
 ```
 
+## Citation
+If you use VarRNA in your research, please consider citing our paper: 
+https://www.nature.com/articles/s43856-025-00901-y
