@@ -17,3 +17,4 @@ dependencies:
   - xgboost=2.1.1
   - scikit-learn=1.5.2
   - imbalanced-learn=0.12.4
+  - samtools=1.22.1
