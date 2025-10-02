@@ -22,7 +22,7 @@ tar -xvzf dependencies/salmon-1.9.0_linux_x86_64.tar.gz -C dependencies/
 wget https://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-common_all.vcf.gz -P $resources
 
 # Repeat Masker
-wget https://www.repeatmasker.org/genomes/hg38/RepeatMasker-rm405-db20140131/hg38.fa.out.gz -P $resources
+wget https://www.repeatmasker.org/genomes/hg38/rmsk4.0.5_rb20140131/hg38.fa.out.gz -P $resources
 
 # REDI Portal
 wget http://srv00.recas.ba.infn.it/webshare/ATLAS/download/TABLE1_hg38_v3.txt.gz -P $resources
