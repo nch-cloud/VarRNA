@@ -40,16 +40,16 @@ tar -xvzf dependencies/annovar.latest.tar.gz -C dependencies/
 
 ## Download Resources
 
-### XGBoost models and custom resources
+### Resource bundle (curated data and models)
 ```bash
 aws s3 sync s3://igm-public-dropbox/varrna/ resources/ --no-sign-request
 ```
 
-### Public resources
-Run the following scripts to download and process additional resources:
+### Legacy resource scripts
+These scripts are deprecated (some public URLs have moved) but are retained for provenance. You don’t need them for new installs.
 ```bash
-bash get_resources.sh
-bash process_resources.sh
+get_resources.sh
+process_resources.sh
 ```
 
 You should have the following resources:
