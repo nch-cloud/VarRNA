@@ -22,3 +22,6 @@ workflow/scripts/__pycache__/
 workflow/.attach*
 
 .DS_Store
+
+# Tmp files
+tmp*
